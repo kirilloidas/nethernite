@@ -1,4 +1,3 @@
-<!-- eslint-disable vue/no-unused-components -->
 <template>
   <v-app class='wrapper'>
     <AppHeader/>
@@ -19,15 +18,6 @@ import AppLoader from '@/components/AppLoader';
 
 export default {
   name: 'MainView',
-  // eslint-disable-next-line vue/no-unused-components
   components: {AppLoader, AppTable, AppHeader, AppFooter, AppMessage},
-
 }
 </script>
-
-<style lang='scss'>
-.wrapper {
-  //height: 100%;
-  //padding-bottom: 100px;
-}
-</style>
